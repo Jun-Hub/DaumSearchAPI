@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Daum Search API</string>
+
+    <string name="search">검색어를 입력하세요.</string>
+    <string name="no_result">검색 결과가 없습니다.</string>
+
+    <string name="sitename">출처 : %1$s</string>
+    <string name="datetime">작성 시간 : %1$s</string>
+</resources>
