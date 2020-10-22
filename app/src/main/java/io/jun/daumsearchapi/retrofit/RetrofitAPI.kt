@@ -6,7 +6,7 @@ import retrofit2.http.*
 
 interface RetrofitAPI {
 
-    @Headers("Authorization: KakaoAK e417c4434dff0d5d22c916f2d3e06ec7")
+    @Headers("Authorization: KakaoAK Your API Key")
     @GET("/v2/search/image")
     fun requestImage(@Query("query") keyword: String,
                      @Query("page") page: Int,
